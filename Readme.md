@@ -20,7 +20,7 @@ The challenge is divided into six main sections, each covering different topics:
 - **Day 1:** Introduction to Arrays and Basic Operations
   - Practice: Reverse an array, Find the maximum and minimum in an array
 - **Day 2:** Array Manipulation and Two Pointer Technique
-  - Practice: Move all zeros to the end, Sort an array of 0s, 1s, and 2s
+  - Practice: [Move all zeros to the end](https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1), [Sort an array of 0s, 1s, and 2s](https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sortBy=submissions)
 - **Day 3:** Strings and Basic Operations
   - Practice: Reverse a string, Check if a string is a palindrome
 - **Day 4:** String Manipulation Techniques
