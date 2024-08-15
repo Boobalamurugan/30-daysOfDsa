@@ -8,7 +8,7 @@ The algorithm uses three pointers:
 **mid**: Traverses the array, classifying elements.
 **high**: Tracks the boundary between 1s and 2s.
 
-![Rules](image.png)
+![Rules](images/update.png)
 
 ![Easy understanding](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aiDZTMR1pvBieO1ipIwltA.png)
 *Image from [Medium](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*aiDZTMR1pvBieO1ipIwltA.png)*
