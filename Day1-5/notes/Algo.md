@@ -1,4 +1,4 @@
-### Dutch National Flag Algo (sort 0s,1s,2s) :
+### 1. Dutch National Flag Algo (sort 0s,1s,2s) :
 
 The Dutch National Flag Algorithm is an efficient sorting algorithm that solves the problem of sorting an array of 0s, 1s, and 2s in linear time with constant space. 
 

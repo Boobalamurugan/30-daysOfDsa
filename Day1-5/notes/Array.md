@@ -1,4 +1,4 @@
-# Array and String 
+# Array 
 
 ## What is an Array:
 
@@ -56,7 +56,4 @@ Arrays can be of various types:
     ![Search Array Elements](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Search-Operation-in-Unsorted-Array.png)
     
     *Image from [GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Search-Operation-in-Unsorted-Array.png)*
-
-
-## What is String
 
