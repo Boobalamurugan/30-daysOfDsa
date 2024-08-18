@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QLength: The number of characters can be determined (e.g., str.length() in c++).\\E$"}
