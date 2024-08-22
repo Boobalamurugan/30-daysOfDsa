@@ -31,7 +31,7 @@ The challenge is divided into six main sections, each covering different topics:
 ### Days 6-10: Linked Lists
 
 - **Day 6:** Introduction to Linked Lists and Basic Operations
-  - Practice: Reverse a Linked List, Detect a loop in a Linked List
+  - Practice:[Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1), [Detect a loop in a Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1)
 - **Day 7:** Linked List Problems (Part 1)
   - Practice: Merge two sorted Linked Lists, Remove Nth node from end of the list
 - **Day 8:** Linked List Problems (Part 2)
