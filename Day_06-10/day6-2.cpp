@@ -92,7 +92,7 @@ bool detect_loop_optimal(Node* head){
     Node* slow=head;
     Node* fast=head;
 
-    while(fast->next=nullptr || fast!=nullptr){
+    while(fast->next!=nullptr && fast!=nullptr){
         slow=slow->next;
         fast=fast->next->next;
         if(slow==fast){

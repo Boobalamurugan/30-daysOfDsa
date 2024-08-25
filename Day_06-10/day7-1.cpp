@@ -30,9 +30,9 @@ void display(const Node* head){
 }
 
 //Sort the LinkedList
-void sortLinkedList(Node* head){
+Node* sortLinkedList(Node* head){
     if(!head){
-        return;
+        return 0;
     }
     
     Node* temp=head;
@@ -45,6 +45,7 @@ void sortLinkedList(Node* head){
             }
         }
     }
+    return head;
 }
 
 // Return the Length of the LinkedList
@@ -114,6 +115,34 @@ Node* convertArrayToLinkedList(vector<int> arr){
     return newhead;
 }
 
+// Return the sorted LinkedList but in O(1) space complexity because of dummy node
+Node* mergeLinkedList(Node* head1 , Node* head2){
+    Node* t1=head1;
+    Node* t2=head2;
+    Node* dNode=new Node{-1,nullptr};
+    Node* temp=dNode;
+    while(t1!=nullptr && t2!=nullptr){
+        if(t1->data < t2->data){
+            temp->next=t1;
+            temp = t1;    // Move temp to point to the newly added node t1
+            t1 = t1->next;  
+            }  
+        else{
+            temp->next=t2;
+            temp=t2;
+            t2=t2->next;
+        }
+    }
+    if(t1!=nullptr){
+        temp->next=t1;
+    }
+    else{
+        temp->next=t2;
+    }
+
+    return dNode->next;
+}
+
 
 int main(){
     Node* head1=nullptr;
@@ -135,18 +164,22 @@ int main(){
     cout << "Original List 2: ";
     display(head2);
 
-    sortLinkedList(head1);
-    sortLinkedList(head2);
+    Node* sortedLL1=sortLinkedList(head1);
+    Node* sortedLL2=sortLinkedList(head2);
 
-    vector<int> arr1 = convertLinkedListToArray(head1);
+    vector<int> arr1 = convertLinkedListToArray(sortedLL1);
     // printVec(arr1);
-    vector<int> arr2 = convertLinkedListToArray(head2);
+    vector<int> arr2 = convertLinkedListToArray(sortedLL2);
     // printVec(arr2);
 
     vector<int> merged_arr = mergeArrays(arr1, arr2);
     // printVec(merged_arr);
 
     Node* mergedHead = convertArrayToLinkedList(merged_arr);
-    cout << "Output: " << endl;
+    cout << "Output 1: " << endl;
     display(mergedHead);
+
+    Node* newhead=mergeLinkedList(sortedLL1,sortedLL2);
+    cout << "Output 2: " << endl;
+    display(newhead);
 }
