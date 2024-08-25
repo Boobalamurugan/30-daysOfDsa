@@ -23,7 +23,7 @@ The challenge is divided into six main sections, each covering different topics:
   - Practice: [Move all zeros to the end](https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1), [Sort an array of 0s, 1s, and 2s](https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sortBy=submissions)
 - **Day 3:** Strings and Basic Operations
   - Practice: [Reverse a string](https://www.geeksforgeeks.org/problems/string-reversalunpublished-for-now5324/1), [Check if a string is a palindrome](https://www.geeksforgeeks.org/problems/palindrome-string0817/1)
-- **Day 4:** String Manipulation Techniques
+- **Day 4:** String Manipulation Techniques 
   - Practice: [Longest Common Prefix](https://www.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1), [Count and Say problem](https://leetcode.com/problems/count-and-say/description/)
 - **Day 5:** Sliding Window Technique
   - Practice:[ Maximum sum subarray of size k](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1), [The Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1361550486/)
