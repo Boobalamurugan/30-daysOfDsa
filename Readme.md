@@ -33,7 +33,7 @@ The challenge is divided into six main sections, each covering different topics:
 - **Day 6:** Introduction to Linked Lists and Basic Operations
   - Practice:[Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1), [Detect a loop in a Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1)
 - **Day 7:** Linked List Problems (Part 1)
-  - Practice: [Merge two sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1), Remove Nth node from end of the list
+  - Practice: [Merge two sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1),[Remove Nth node from end of the list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - **Day 8:** Linked List Problems (Part 2)
   - Practice: Intersection of two Linked Lists, Flatten a multilevel Linked List
 - **Day 9:** Doubly Linked Lists
