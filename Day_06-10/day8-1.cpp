@@ -48,6 +48,9 @@ class LinkedList{
 
 };
 
+// return the intersected nodes 
+// TC : O(N1 * N2)
+// SC : O(min(N1, N2))
 Node* intersectionOfTwoLL(Node*head1, Node* head2){
     Node* L1=head2;
     Node* L2=head1;
@@ -75,7 +78,9 @@ Node* intersectionOfTwoLL(Node*head1, Node* head2){
     return newHead;
 }
 
-
+// return the intersection nodes without create a newLL
+// TC : O(N1 * N2)
+// SC : O(1)
 Node* intersectionOfTwoLL_reduceSC(Node* head1, Node* head2) {
         Node* L1=head1;
         Node* L2=head2;
@@ -98,29 +103,10 @@ Node* intersectionOfTwoLL_reduceSC(Node* head1, Node* head2) {
         
     }
 
-Node* intersectionOfTwoLL_OP(Node* head1,Node* head2){
-        Node* L1=head1;
-        Node* L2=head2;
-        Node* dNode=new Node(-1);
-        Node* temp=dNode;
-        unordered_set<int> set;
 
-        while(L2!=nullptr){
-            set.insert(L2->data);
-            L2=L2->next;
-        }
-
-        while(L1!=nullptr){
-            if(set.find(L1->data)!=set.end()){
-                temp->next=new Node(L1->data);
-                temp=temp->next;
-            }
-            L1=L1->next;
-        }
-
-        return dNode->next;
-}
 // using unoreded set
+// TC : O(N1 + N2)
+// SC : O(N) for set 
 Node* intersectionOfTwoLL_OP_set(Node* head1,Node* head2){
         Node* L1=head1;
         Node* L2=head2;
@@ -144,7 +130,7 @@ Node* intersectionOfTwoLL_OP_set(Node* head1,Node* head2){
         return dNode->next;
 }
 
-
+// using map sturture
 Node* intersectionOfTwoLL_OP_map(Node* head1,Node* head2){
         Node* L1=head1;
         Node* L2=head2;
@@ -187,6 +173,12 @@ int main(){
     list1.display();
     list2.display();
 
+/* 
+intersectionOfTwoLL
+intersectionOfTwoLL_reduceSC 
+intersectionOfTwoLL_OP_set
+intersectionOfTwoLL_OP_map
+*/
     Node* output=intersectionOfTwoLL_OP_map(list1.head,list2.head);
     LinkedList result;
     result.head = output;
