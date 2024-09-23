@@ -44,7 +44,7 @@ The challenge is divided into six main sections, each covering different topics:
 ### Days 11-15: Stacks and Queues
 
 - **Day 11:** Introduction to Stacks
-  - Practice: Implement a Stack using an array/Linked List, Next Greater Element
+  - Practice: Implement a Stack using an array/Linked List, [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1)
 - **Day 12:** Stack Problems
   - Practice: Evaluate Reverse Polish Notation, Balanced Parentheses
 - **Day 13:** Introduction to Queues
