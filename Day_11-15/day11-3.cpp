@@ -5,6 +5,7 @@ using namespace std;
 
 vector<int> NGE_BF(int arr[],int n){
     vector<int> new_arr(n);
+
     for(int i=0;i<n;i++){
         if(i==n){
             new_arr[i]=-1;
