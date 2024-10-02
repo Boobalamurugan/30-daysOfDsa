@@ -7,25 +7,25 @@ bool ispar(string str){
         if(str[i]=='{' || str[i]=='[' || str[i]=='('){
             st.push(str[i]);
         }
-        else(
+        else{
         if (st.empty()) return false;
         char ch=st.top();
         if(
         (ch=='(' && str[i]==')') || 
         (ch=='[' && str[i]==']') || 
-        (ch='{' && str[i]=='}')
+        (ch=='{' && str[i]=='}')
         ){
             st.pop();
         }
         else return false;
-        )
+        }
     }
     return st.empty();
 }
 
 
 int main(){
-    string str="{{}[]}}}";
+    string str="[({[([{}])]})}";
     if(ispar(str)) cout<< "Balanced"<<endl;
     else cout<<"not balanced"<<endl;   
 }
