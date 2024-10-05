@@ -46,7 +46,7 @@ The challenge is divided into six main sections, each covering different topics:
 - **Day 11:** Introduction to Stacks
   - Practice: Implement a Stack using an array/Linked List, [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1)
 - **Day 12:** Stack Problems
-  - Practice: Evaluate Reverse Polish Notation, Balanced Parentheses
+  - Practice: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/),[Balanced Parenthese](https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1)
 - **Day 13:** Introduction to Queues
   - Practice: Implement a Queue using an array/Linked List, Implement a Circular Queue
 - **Day 14:** Queue Problems

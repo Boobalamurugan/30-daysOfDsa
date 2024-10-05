@@ -43,12 +43,10 @@ void insertAtEnd(Node*& last,int val){
 void insertAtPos(Node*& last,int val,int pos){
 
     if(last == nullptr){
-        
         if(pos != 1){
             cout << "Invalid position!" << endl;
             return;
         }
-        
         Node *nn = new Node(val);
         last = nn;
         last->next = last;
